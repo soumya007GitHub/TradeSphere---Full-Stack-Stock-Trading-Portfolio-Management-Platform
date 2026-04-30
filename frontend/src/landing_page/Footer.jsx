@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
+  const style = {
+    color: "#3483eb",
+    textDecoration: "none", 
+    lineHeight: "1.5"
+  }
   return (
      <footer className='border border-gray-300'>
       <div  className="w-full flex-col flex gap-6 border-top px-5 md:px-10 lg:px-48 text-gray-700 my-7">
@@ -13,43 +18,43 @@ const Footer = () => {
           </div>
           <div className="w-1/4">
             <p className="text-lg mb-2 text-gray-900">Company</p>
-            <a href="#">About</a>
+            <a href="#" style={style}>About</a>
             <br />
-            <a href="#">Products</a>
+            <a href="#" style={style}>Products</a>
             <br />
-            <a href="#">Pricing</a>
+            <a href="#" style={style}>Pricing</a>
             <br />
-            <a href="#">Referral programme</a>
+            <a href="#" style={style}>Referral programme</a>
             <br />
-            <a href="#">Careers</a>
+            <a href="#" style={style}>Careers</a>
             <br />
-            <a href="#">Zerodha.tech</a>
+            <a href="#" style={style}>Zerodha.tech</a>
             <br />
-            <a href="#">Press & media</a>
+            <a href="#" style={style}>Press & media</a>
             <br />
-            <a href="#">Zerodha cares (CSR)</a>
+            <a href="#" style={style}>Zerodha cares (CSR)</a>
             <br />
           </div>
           <div className="w-1/4">
              <p className="text-lg mb-2 text-gray-900">Support</p>
-            <a href="#">Contact</a>
+            <a href="#" style={style}>Contact</a>
             <br />
-            <a href="#">Support portal</a>
+            <a href="#" style={style}>Support portal</a>
             <br />
-            <a href="#">Z-Connect blog</a>
+            <a href="#" style={style}>Z-Connect blog</a>
             <br />
-            <a href="#">List of charges</a>
+            <a href="#" style={style}>List of charges</a>
             <br />
-            <a href="#">Downloads & resources</a>
+            <a href="#" style={style}>Downloads & resources</a>
             <br />
           </div>
           <div className="w-1/4">
              <p className="text-lg mb-2 text-gray-900">Account</p>
-            <a href="#">Open an account</a>
+            <a href="#" style={style}>Open an account</a>
             <br />
-            <a href="#">Fund transfer</a>
+            <a href="#" style={style}>Fund transfer</a>
             <br />
-            <a href="#">60 day challenge</a>
+            <a href="#" style={style}>60 day challenge</a>
             <br />
           </div>
         </div>
