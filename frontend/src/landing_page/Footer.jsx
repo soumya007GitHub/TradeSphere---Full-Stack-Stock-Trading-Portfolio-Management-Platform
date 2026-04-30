@@ -3,59 +3,50 @@ import React from 'react'
 const Footer = () => {
   const style = {
     color: "#3483eb",
-    textDecoration: "none", 
+    textDecoration: "none",
     lineHeight: "1.5"
   }
   return (
-     <footer className='border border-gray-300'>
-      <div  className="w-full flex-col flex gap-6 border-top px-5 md:px-10 lg:px-48 text-gray-700 my-7">
-        <div className="w-full flex justify-center mt-5 gap-4">
-          <div className="w-1/4">
-            <img src="media/logo.svg" className='w-1/2'/>
-            <p className='pt-3'>
-              &copy; 2010 - 2026,<br/>Zerodha Broking Ltd. <br/>All rights reserved.
-            </p>
-          </div>
-          <div className="w-1/4">
-            <p className="text-lg mb-2 text-gray-900">Company</p>
-            <a href="#" style={style}>About</a>
-            <br />
-            <a href="#" style={style}>Products</a>
-            <br />
-            <a href="#" style={style}>Pricing</a>
-            <br />
-            <a href="#" style={style}>Referral programme</a>
-            <br />
-            <a href="#" style={style}>Careers</a>
-            <br />
-            <a href="#" style={style}>Zerodha.tech</a>
-            <br />
-            <a href="#" style={style}>Press & media</a>
-            <br />
-            <a href="#" style={style}>Zerodha cares (CSR)</a>
-            <br />
-          </div>
-          <div className="w-1/4">
-             <p className="text-lg mb-2 text-gray-900">Support</p>
-            <a href="#" style={style}>Contact</a>
-            <br />
-            <a href="#" style={style}>Support portal</a>
-            <br />
-            <a href="#" style={style}>Z-Connect blog</a>
-            <br />
-            <a href="#" style={style}>List of charges</a>
-            <br />
-            <a href="#" style={style}>Downloads & resources</a>
-            <br />
-          </div>
-          <div className="w-1/4">
-             <p className="text-lg mb-2 text-gray-900">Account</p>
-            <a href="#" style={style}>Open an account</a>
-            <br />
-            <a href="#" style={style}>Fund transfer</a>
-            <br />
-            <a href="#" style={style}>60 day challenge</a>
-            <br />
+    <footer className='border border-gray-300'>
+      <div className="w-full flex-col flex gap-6 border-top px-5 md:px-10 lg:px-48 text-gray-700 my-7">
+        <div className="w-full flex flex-col md:flex-row justify-center mt-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+
+            <div className="flex flex-col items-center md:items-start">
+              <img src="media/logo.svg" className="w-1/2" />
+              <p className="pt-3">
+                &copy; 2010 - 2026,<br />Zerodha Broking Ltd.<br />All rights reserved.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center md:items-start">
+              <p className="text-lg mb-2 text-gray-900">Company</p>
+              <a href="#" style={style}>About</a>
+              <a href="#" style={style}>Products</a>
+              <a href="#" style={style}>Pricing</a>
+              <a href="#" style={style}>Referral programme</a>
+              <a href="#" style={style}>Careers</a>
+              <a href="#" style={style}>Zerodha.tech</a>
+              <a href="#" style={style}>Press & media</a>
+              <a href="#" style={style}>Zerodha cares (CSR)</a>
+            </div>
+
+            <div className="flex flex-col items-center md:items-start">
+              <p className="text-lg mb-2 text-gray-900">Support</p>
+              <a href="#" style={style}>Contact</a>
+              <a href="#" style={style}>Support portal</a>
+              <a href="#" style={style}>Z-Connect blog</a>
+              <a href="#" style={style}>List of charges</a>
+              <a href="#" style={style}>Downloads & resources</a>
+            </div>
+
+            <div className="flex flex-col items-center md:items-start">
+              <p className="text-lg mb-2 text-gray-900">Account</p>
+              <a href="#" style={style}>Open an account</a>
+              <a href="#" style={style}>Fund transfer</a>
+              <a href="#" style={style}>60 day challenge</a>
+            </div>
+
           </div>
         </div>
         <div className="mt-5 text-gray-700 2/3" style={{ fontSize: "14px" }}>

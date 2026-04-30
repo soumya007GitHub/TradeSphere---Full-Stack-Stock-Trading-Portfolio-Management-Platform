@@ -2,17 +2,17 @@ import React from 'react'
 
 const Awards = () => {
   return (
-    <div className="w-full flex my-10 gap-6">
-    <div className="w-1/2 mt-20">
-    <img src="media/largestBroker.svg" alt="Largest Broker" className='w-[90%]'/>
+    <div className="w-full flex flex-col md:flex-row my-10 md:gap-6">
+    <div className="w-full md:w-1/2 mt-20 flex justify-center items-center">
+    <img src="media/largestBroker.svg" alt="Largest Broker" className='w-[90%] '/>
     </div>
-    <div className="w-1/2 mt-20 flex flex-col items-center justify-center">
+    <div className="w-full md:w-1/2 mt-20 flex flex-col items-center justify-center px-10 md:px-20">
       <h2 className='text-2xl font-bold text-gray-800'>Largest stock broker in India</h2>
       <p className="mt-3 mb-5 text-gray-800">
             2+ million Zerodha clients contribute to over 15% of all retail
             order volumes in India daily by trading and investing in:
           </p>
-          <div className="w-full flex items-center">
+          <div className="w-full flex items-center gap-6">
             <div className="w-1/2 text-gray-700">
               <ul className='list-disc'>
                 <li className='my-2'>
@@ -40,7 +40,7 @@ const Awards = () => {
               </ul>
             </div>
           </div>
-          <img src="media/pressLogos.png" alt="Press Image" className='mt-5'/>
+          <img src="media/pressLogos.png" alt="Press Image" className='mt-5 w-full'/>
     </div>
     </div>
   )
