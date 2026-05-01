@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="w-full flex flex-col my-20 mb-0  gap-6 px-5 md:px-10 lg:px-48">
-      <div className="p-5 pb-20 mt-5 mb-5 border-b-1 border-gray-300">
+      <div className="p-5 md:pb-20 mt-5 mb-5 border-b-1 border-gray-300">
         <h2 className="fl-2 text-center font-semibold text-2xl text-gray-800">
           We pioneered the discount broking model in India
           <br />
@@ -11,10 +11,10 @@ const Hero = () => {
         </h2>
       </div>
       <div
-        className="pt-10 border-top text-gray-700 flex"
+        className="md:pt-10 border-top text-gray-700 flex flex-col md:flex-row"
         style={{ lineHeight: "1.8", fontSize: "1rem" }}
       >
-        <div className="w-1/2 p-5">
+        <div className="w-full md:w-1/2 p-5">
           <p>
             We kick-started operations on the 15th of August, 2010 with the goal
             of breaking all barriers that traders and investors face in India in
@@ -32,7 +32,7 @@ const Hero = () => {
             all Indian retail trading volumes.
           </p>
         </div>
-        <div className="w-1/2 p-5">
+        <div className="w-full md:w-1/2 p-5">
           <p>
             In addition, we run a number of popular open online educational and
             community initiatives to empower retail traders and investors.

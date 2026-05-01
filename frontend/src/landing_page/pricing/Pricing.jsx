@@ -4,9 +4,9 @@ import Brokerage from './Brokerage'
 
 const Pricing = () => {
   return (
-    <div className='w-full flex flex-col justify-center items-center px-5 md:px-10 lg:px-48 mt-20 mb-20'>
+    <div className='w-full flex flex-col justify-center items-center px-5 md:px-10 lg:px-48 mt-20 md:mb-20'>
       <Hero />
-      <Brokerage/>
+      <Brokerage />
     </div>
   )
 }

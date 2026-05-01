@@ -4,8 +4,8 @@ import { MoveRight } from "lucide-react";
 const Brokerage = () => {
   return (
     <div className="">
-      <div className="p-5 mt-5 text-center border-top flex justify-center items-center">
-        <div className="w-2/3 p-4">
+      <div className="w-full p-5 mt-5 text-center border-top flex flex-col md:flex-row justify-center items-center">
+        <div className="w-full md:w-2/3 p-4">
           <a href="#" style={{ textDecoration: "none" }}>
             <h3 className="text-2xl font-bold text-gray-800 mb-3">Brokerage calculator</h3>
           </a>
@@ -35,10 +35,10 @@ const Brokerage = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/3 p-4 text-blue-500 hover:underline pt-3 ml-4">
+        <div className="w-full md:w-1/3 p-4 text-blue-500 hover:underline pt-3 ml-4">
           <a href="#" style={{ textDecoration: "none" }}>
             List of charges <MoveRight className='inline ml-2' />
-            </a>
+          </a>
         </div>
       </div>
     </div>

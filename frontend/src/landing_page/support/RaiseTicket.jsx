@@ -4,16 +4,16 @@ import { CirclePlus } from "lucide-react";
 const RaiseTicket = () => {
   const style = {
     color: "#3483eb",
-    textDecoration: "none", 
+    textDecoration: "none",
     lineHeight: "2.5"
   }
   return (
     <div className="w-full flex flex-col justify-center items-center mb-20 px-5 md:px-10 lg:px-48 text-gray-700">
       <h1 className="text-3xl font-semibold my-5 text-gray-800">To create a ticket, select a relevant topic</h1>
-      <div className="w-full flex justify-between items-center">
-        <div className="col-4 p-5 mt-2 mb-2">
+      <div className="w-full flex flex-col md:flex-row justify-between items-center">
+        <div className="w-full md:w-1/2 lg:w-1/3  p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Account Opening
+            <CirclePlus className='inline' /> Account Opening
           </h4>
           <a href="" style={style}>
             Online Account Opening
@@ -48,9 +48,9 @@ const RaiseTicket = () => {
           </a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="w-full md:w-1/2 lg:w-1/3  p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Funds & Payments
+            <CirclePlus className='inline' /> Funds & Payments
           </h4>
           <a href="" style={style}>
             Add Money (UPI / Net Banking / IMPS)
@@ -85,9 +85,9 @@ const RaiseTicket = () => {
           </a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="w-full md:w-1/2 lg:w-1/3  p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Trading & Orders
+            <CirclePlus className='inline' /> Trading & Orders
           </h4>
           <a href="" style={style}>
             Order Not Executed
@@ -123,10 +123,10 @@ const RaiseTicket = () => {
           <br />
         </div>
       </div>
-      <div className="w-full flex justify-between items-center">
-        <div className="col-4 p-5 mt-2 mb-2">
+      <div className="w-full flex flex-col md:flex-row justify-between items-center">
+        <div className="w-full md:w-1/2 lg:w-1/3 p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Account Management
+            <CirclePlus className='inline' /> Account Management
           </h4>
           <a href="" style={style}>
             Profile Update (Email / Mobile)
@@ -161,9 +161,9 @@ const RaiseTicket = () => {
           </a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="w-full md:w-1/2 lg:w-1/3 p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Technical Issues
+            <CirclePlus className='inline' /> Technical Issues
           </h4>
           <a href="" style={style}>
             App Not Loading
@@ -198,9 +198,9 @@ const RaiseTicket = () => {
           </a>
           <br />
         </div>
-        <div className="col-4 p-5 mt-2 mb-2">
+        <div className="w-full md:w-1/2 lg:w-1/3 p-5 mt-2 mb-2">
           <h4 className="text-xl font-bold text-gray-800 my-3">
-            <CirclePlus className='inline'/> Reports & Statements
+            <CirclePlus className='inline' /> Reports & Statements
           </h4>
           <a href="" style={style}>
             P&L Statement

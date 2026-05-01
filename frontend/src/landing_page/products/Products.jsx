@@ -6,9 +6,9 @@ import Universe from './Universe';
 
 const Products = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center px-5 md:px-10 lg:px-48 mt-20 mb-20">
-        <Hero/>
-       <LeftSection
+    <div className="w-full flex flex-col justify-center items-center px-5 md:px-10 lg:px-48 mt-20 md:mb-20">
+      <Hero />
+      <LeftSection
         imageURL="media/kite.png"
         productName="Kite"
         productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
@@ -37,7 +37,7 @@ const Products = () => {
         Want to know more about our technology stack? Check out the Zerodha.tech
         blog.
       </p>
-      <Universe/>
+      <Universe />
     </div>
   )
 }
