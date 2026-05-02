@@ -8,7 +8,7 @@ const Stats = () => {
      <h2 className='text-2xl font-bold text-gray-800 mb-10'>Trust with confidence</h2>
           <h2 className='text-xl font-semibold text-gray-800'>Customer-first always</h2>
           <p >
-            That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores
+            That's why 1.3+ crore customers trust TradeSphere with ₹3.5+ lakh crores
             worth of equity investments.
           </p>
           <h2 className='text-xl font-semibold text-gray-800 mt-5'>No spam or gimmicks</h2>
@@ -16,7 +16,7 @@ const Stats = () => {
             No gimmicks, spam, "gamification", or annoying push notifications.
             High quality apps that you use at your pace, the way you like.
           </p>
-          <h2 className='text-xl font-semibold text-gray-800 mt-5'>The Zerodha universe</h2>
+          <h2 className='text-xl font-semibold text-gray-800 mt-5'>The TradeSphere universe</h2>
           <p >
             Not just an app, but a whole ecosystem. Our investments in 30+
             fintech startups offer you tailored services specific to your needs.

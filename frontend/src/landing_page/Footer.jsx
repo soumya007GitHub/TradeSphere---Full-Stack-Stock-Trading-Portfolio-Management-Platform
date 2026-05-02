@@ -13,9 +13,9 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
 
             <div className="flex flex-col items-center md:items-start">
-              <img src="media/logo.svg" className="w-1/2" />
+              <img src="/favicon.svg" className="w-1/10 md:w-1/2" />
               <p className="pt-3">
-                &copy; 2010 - 2026,<br />Zerodha Broking Ltd.<br />All rights reserved.
+                &copy; 2010 - 2026,<br />TradeSphere Broking Ltd.<br />All rights reserved.
               </p>
             </div>
 
@@ -26,9 +26,9 @@ const Footer = () => {
               <a href="#" style={style}>Pricing</a>
               <a href="#" style={style}>Referral programme</a>
               <a href="#" style={style}>Careers</a>
-              <a href="#" style={style}>Zerodha.tech</a>
+              <a href="#" style={style}>TradeSphere.tech</a>
               <a href="#" style={style}>Press & media</a>
-              <a href="#" style={style}>Zerodha cares (CSR)</a>
+              <a href="#" style={style}>TradeSphere cares (CSR)</a>
             </div>
 
             <div className="flex flex-col items-center md:items-start">
@@ -51,15 +51,15 @@ const Footer = () => {
         </div>
         <div className="mt-5 text-gray-700 2/3" style={{ fontSize: "14px" }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
+            TradeSphere Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+            INZ000031633 CDSL: Depository services through TradeSphere Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
+            through TradeSphere Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+            no.: INZ000038238 Registered Address: TradeSphere Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
             complaints pertaining to securities broking please write to
-            complaints@zerodha.com, for DP related to dp@zerodha.com. Please
+            complaints@TradeSphere.com, for DP related to dp@TradeSphere.com. Please
             ensure you carefully read the Risk Disclosure Document as prescribed
             by SEBI | ICF
           </p>
@@ -91,7 +91,7 @@ const Footer = () => {
             of allotment. In case of non allotment the funds will remain in your
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
+            claiming to be part of TradeSphere and offering such services, please
             create a ticket here.
           </p>
         </div>

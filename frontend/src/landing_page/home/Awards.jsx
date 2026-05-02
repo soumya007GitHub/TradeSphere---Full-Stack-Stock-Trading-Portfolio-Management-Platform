@@ -9,7 +9,7 @@ const Awards = () => {
     <div className="w-full md:w-1/2 mt-20 flex flex-col items-center justify-center px-10 md:px-20">
       <h2 className='text-2xl font-bold text-gray-800'>Largest stock broker in India</h2>
       <p className="mt-3 mb-5 text-gray-800">
-            2+ million Zerodha clients contribute to over 15% of all retail
+            2+ million TradeSphere clients contribute to over 15% of all retail
             order volumes in India daily by trading and investing in:
           </p>
           <div className="w-full flex items-center gap-6">

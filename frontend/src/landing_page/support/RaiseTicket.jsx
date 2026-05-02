@@ -36,11 +36,11 @@ const RaiseTicket = () => {
           </a>
           <br />
           <a href="" style={style}>
-            Charges at Zerodha
+            Charges at TradeSphere
           </a>
           <br />
           <a href="" style={style}>
-            Zerodha IDFC FIRST Bank 3-in-1 Account
+            TradeSphere IDFC FIRST Bank 3-in-1 Account
           </a>
           <br />
           <a href="" style={style}>

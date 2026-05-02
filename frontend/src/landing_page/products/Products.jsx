@@ -16,7 +16,7 @@ const Products = () => {
       <RightSection
         imageURL="media/console.png"
         productName="Console"
-        productDesription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
+        productDesription="The central dashboard for your TradeSphere account. Gain insights into your trades and investments with in-depth reports and visualisations."
       />
       <LeftSection
         imageURL="media/coin.png"
@@ -34,7 +34,7 @@ const Products = () => {
         productDesription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
       />
       <p className="text-center my-5">
-        Want to know more about our technology stack? Check out the Zerodha.tech
+        Want to know more about our technology stack? Check out the TradeSphere.tech
         blog.
       </p>
       <Universe />

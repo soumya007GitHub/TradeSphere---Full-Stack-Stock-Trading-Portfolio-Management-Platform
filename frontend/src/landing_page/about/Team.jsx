@@ -15,17 +15,17 @@ const Team = () => {
       >
         <div className="w-full md:w-1/2 p-3 text-center flex flex-col items-center">
           <img
-            src="media/nithinKamath.jpg"
+            src="media/soumya.jpeg"
             className='rounded-full w-[30%] md:w-[50%]'
           />
-          <h4 className="mt-5 text-lg font-semibold">Nithin Kamath</h4>
+          <h4 className="mt-5 text-lg font-semibold">Soumya Tripathy</h4>
           <h6>Founder, CEO</h6>
         </div>
         <div className="w-full md:w-1/2 p-3">
           <p className='my-3'>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
+            Soumya bootstrapped and founded TradeSphere in 2010 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            TradeSphere has changed the landscape of the Indian broking industry.
           </p>
           <p className='my-3'>
             He is a member of the SEBI Secondary Market Advisory Committee
@@ -34,7 +34,7 @@ const Team = () => {
           <p className='my-3'>Playing basketball is his zen.</p>
           <p className='my-3'>
             Connect on <Link to="/" className='text-blue-600'>Homepage</Link> / <a href="#" className='text-blue-600'><Rss className='inline' /> TradingQnA</a> /
-            <a href="#" className='text-blue-600'><Bird className='inline' />Twitter</a>
+            <a href="https://www.linkedin.com/in/soumya-tripathy007" className='text-blue-600' target="_blank"><Bird className='inline' />Linkedin</a>
           </p>
         </div>
       </div>
